@@ -50,6 +50,7 @@ function displayPlanResults(farmItems, needs) {
     const panel = document.querySelector('#page-plan .panel');
     let html = `
         <h2>规划 - 体力计算</h2>
+        <h6>因天赋本概率刷出7个或者其他材料故时间比计算结果小</h6>
     `;
     if (farmItems.length === 0) {
         html += '<p>缺少材料为0，无需刷取。</p>';

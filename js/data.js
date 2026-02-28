@@ -788,7 +788,7 @@ const OPERATOR_AVATARS = {
 };
 const DEFAULT_AVATAR = "images/avatars/default.png";
 
-// 材料图标映射
+// 材料图标
 const MATERIAL_ICONS = {
     "折金票": "images/icons/折金票.png",
     "作战记录经验值": "images/icons/作战记录经验值.png",
